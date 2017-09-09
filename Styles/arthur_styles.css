@@ -1,0 +1,111 @@
+.box {
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: white;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #eeeeee;
+}
+
+.banner {
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  background-image: url("../MalgreNous/images/banner.jpg");
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  background: rgba(51,51,51,.8);
+  width: 100%;
+  height: 200px;
+  line-height: 250%;
+}
+
+.title {
+  margin: 20 auto;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 300%;
+  height: 200px;
+  text-shadow: -2px 0 #333, 0 2px #333, 2px 0 #333, 0 -2px #333;
+}
+
+.subtitle {
+  margin: 0 auto;
+  font-family: 'Anton', sans-serif;
+  line-height: 0px;
+  text-align: center;
+  color: white;
+  font-size: 50%;
+  text-shadow: -2px 0 #333, 0 2px #333, 2px 0 #333, 0 -2px #333;
+}
+
+.content {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  //background-color: #17729a;
+  font-size: 300%;
+  max-width: 50%;
+  max-height: 50px;
+  position: absolute;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.map {
+  border: 1px solid #333;
+}
+
+button.link {
+  background-color: #17729a;
+  border: 1px solid #333;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 1px;
+  float: right;
+}
+
+.box-main {
+  margin: auto;
+  max-width: 900px;
+  height: 100vh;
+}
+
+h2 {
+  color: #aa3939;
+}
+h3 {
+  color: #aa3939;
+}
+
+img {
+  width: 100%;
+}
+
+.leaflet-bottom.leaflet-left {
+  width: 100%;
+  font-size: 200%;
+}
+
+.leaflet-control.container .leaflet-timeline-controls {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,9 @@
+.cat-item ul.children li.cat-item {display:none;}
+
+.cat-item ul.children {border-top:1px solid #464646;}
+
+.current-cat ul.children li.cat-item {display:inline;font-weight:normal;}
+
+.current-cat-parent ul.children li.cat-item {display:inline; }
+
+.current-cat { }
