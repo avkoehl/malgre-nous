@@ -1,6 +1,7 @@
 .menuH2
 {
-    margin: 0; width: 100%; float:none;
+    margin: 0;
+    width: 100%; 
     height: 34px;
     background: #002855;
     border-width: 0 0 4px 0;
@@ -28,6 +29,7 @@
     height: 30px;
     width: 140px;
     position:relative;/*! for IE htc*/
+    text-align: left;
 }
 .menuH2 li:hover, .menuH2 li.onhover
 {
