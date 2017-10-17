@@ -1,0 +1,27 @@
+ul.main {
+  text-align: center;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+
+li.main {
+  display: inline-block;
+}
+
+li.main a {
+  font-size: 17px;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.main a:hover:not(.active) {
+  color: #ff3939;
+  border-bottom: 3px solid #ff3939;
+}
+
+li.main a.active {
+  border-bottom: 3px solid #ff3939;
+}
