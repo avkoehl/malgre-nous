@@ -1,95 +1,89 @@
 <!doctype html public "-//w3c//dtd html 4.0 transitional//en">
 
 <html>
-<head>
+  <head>
+    <title>Les Malgre-Nous: Overview of Casualties in the Second World War</title>
 
-  <title>Malgre Nous</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <!-- Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="../Styles/simple-timeline.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/foundation.css"> 
 
-  <!-- Style Sheets -->
-  <link rel=stylesheet href="../Styles/styles.css" type="text/css">
-  <link rel="stylesheet" type="text/css" href="../Styles/menuH.css">
-  <link rel="stylesheet" type="text/css" href="../Styles/arthur_styles.css">
+    <link rel=stylesheet href="../Styles/styles.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../Styles/arthur_styles.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/menuH.css">
 
-  <style type="text/css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../map.ico">
+  </head>
 
-  <!-- Styles for body of the page-->
-  	body {
-		background-color:white;
-		font-family:Frosty;
-		color:black;
-  	}
+  <body onload="getDate()"> 
 
-  	<!-- Some styles for paragraphs and links-->
-  	p.ex1 {
-		font-family:Frosty;
-  	}
+    <!-- BANNER AND NAVIGATION -->
+    <a href="../index.html">
+      <div id="banner">
+        <img alt="Malgre Nous Les Incorpores de Force Alsaciens et Mosellans" src="../images/MalgreNousLogo.png" style="width: inherit" />
+      </div>
+      <center>
+        <ul style="height: 34px" class="menuH decor1">
+          <li><a href="../index.html">INTRO</a> </li>
+          <li><a href="../Overview/index.html">THE WAR</a> </li>
+          <li><a href="../Memoirs/index.html">MEMOIRS</a></li>
+          <li><a href="../Conclusion/index.html" class="selected">CONCLUSIONS</a></li>
+          <li><a href="../Methods/index.html">METHODS</a></li>
+          <li><a href="../Resources/index.html">RESOURCES</a></li>
+        </ul>
+      </center>
+      <!-- /BANNER AND NAVIGATION -->
 
-  	a:hover {color:#6699CC;}
+      <!-- MAIN PAGE -->
+      <div>
 
-  	a {text-decoration:none; color:#0000A0;}
-  	input[type='text'] { font-size: 16px; }
-  	input[type='file'] { font-size: 16px; }
-  	input[type='submit'] { font-size: 16px; }
+        <!-- REFLECTIONS ON THE MALGRE-NOUS -->
+        <div class="text-block">
+          <h3 class="it">The Malgr&eacute; Nous today</h3>
+          <p><i>Under construction...</i></p>
+        </div> 
+        <!-- /REFLECTIONS ON THE MALGRE-NOUS -->
 
-   </style>
+        <!-- NOTES -->
+        <div class="text-block">
+          <h3 class="it">Notes</h3>
+        </div>
+        <!-- /NOTES -->
+
+      </div>
+      <!-- /MAIN PAGE -->
 
 
-</head>
+      <center>
+        <hr style="display:block;border-color:black;border-width: 1px;">
+        <div style="margin-left:70px;width: 1000px; height: 20px;">
+          <table style="border: none; border-collapse: collapse;height: inherited; margin: 0px 0px 0px 0px;">
+            <tr style="line-height:18px;">
+              <td style="height:18px;width:60px;"><p class="myfont">&nbsp;</p></td>
+              <td style="height:18px;width:500px;" align=left>
+                <p id="time" class="myfont">
+                </p>
+              </td>
+              <td style="height:18px;width:300px;" align=right>
+                <p class="myfont">
+                <a href="http://www.arthurkoehl.com">http://www.arthurkoehl.com</a></p>
+              </td>
+              <td style="height:18px;"><p class="myfont">&nbsp;</p></td>
+            </tr>
+          </table>
+        </div>
+        <hr style="display:block;border-color:black;border-width: 1px;">
+      </center>
 
-<!-- Generate body style -->
-<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#990000" alink="#FF0000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-&nbsp;
-
-<!-- Create banner -->
-<br>
-<div style="width: 990px; height: 250px; margin: 0 auto;">
-<img src="../images/MalgreNousLogo.png" style="width: inherit" />
-</div>
-<br>
-<ul class="menuH decor1">
-    <li style="margin-left:70px;"><a href="../index.html">INTRO</a></li>
-    <li><a href="../Overview/index.html">THE WAR</a> </li>
-    <li><a href="../Memoirs/index.html">MEMOIRS</a></li>
-    <li><a href="./index.html" class="selected">CONCLUSIONS</a></li>
-    <li><a href="../Methods/index.html">METHODS</a> </li>
-    <li><a href="../Resources/index.html">RESOURCES</a></li>
-</ul>
-
-<br>
-<br>
-<div>
-<div style="margin-left:70px;margin-right:70px">
-
-<h3 class="it">The Malgr&eacute; Nous today</h3>
-<br>
-<p><i>Under construction...</i></p>
-<br>
-<h3 class="it">Notes</h3>
-<br>
-<br>
-<hr style="display:block;border-color:black;border-width: 1px;">
-
-<div style="margin-left:70px;width: 1000px; height: 20px;">
-
-<table style="border: none; border-collapse: collapse;height: inherited; margin: 0px 0px 0px 0px;">
-<tr style="line-height:18px;">
-<td style="height:18px;width:60px;"><p class="myfont">&nbsp;</p></td>
-<td style="height:18px;width:500px;" align=left>
-<p class="myfont">
-Page last modified <!--#config timefmt="%e %B %Y"--> <!--#echo var="LAST_MODIFIED"-->
-</p>
-</td>
-<td style="height:18px;width:300px;" align=right>
-<p class="myfont">
-<a href="http://www.arthurkoehl.com">http://www.arthurkoehl.com</a></p>
-</td>
-<td style="height:18px;"><p class="myfont">&nbsp;</p></td>
-</tr>
-</table>
-</div>
-<hr style="display:block;border-color:black;border-width: 1px;">
-
-</body>
+      <script>
+function getDate () {
+  var x = document.lastModified;
+  document.getElementById("time").innerHTML="Last Modified: " + x;
+  return;
+}
+      </script>
+  </body>
 </html>
