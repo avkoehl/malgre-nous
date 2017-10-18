@@ -1,31 +1,14 @@
 .page-title {
   padding-top: 25px;
-  font-size: 35px;
+  font-size: 45px;
   width: 480px;
   margin: auto;
 }
 
 .page-subtitle {
-  font-size: 15px;
+  font-size: 25px;
   width: 480px;
   margin: auto;
-}
-
-hr.title {
-  width: 480px;
-  color: #aa3939;
-  margin: auto;
-  margin-top:  3px;
-  margin-bottom:  13px;
-}
-
-h3 {
-  padding: 5px;
-  margin: 0 auto;
-  padding-bottom: 2px;
-  text-align: center;
-  color: #aa3939;
-  font-size: 20px;
 }
 
 sup {
