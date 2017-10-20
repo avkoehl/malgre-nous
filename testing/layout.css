@@ -30,6 +30,17 @@ body {
   box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.2);
 }
 
+.slide {
+  background-color: white;
+  padding: 0px;
+  width: 1030px;
+  height: 1130px;
+  margin: 10px auto;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.2);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.2);
+}
+
 h3 {
   background-color: #E0E0E0;
   color: #aa3939;
