@@ -1,48 +1,48 @@
-<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<!doctype html>
 <html>
   <head>
-
-    <title>Les Malgre-Nous: Digital Methods and Methodology</title>
-
+    <title>Les Malgre-Nous: Digital Historical Methods </title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
     <!-- Style Sheets -->
-    <link rel=stylesheet href="../Styles/styles.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="../Styles/menuH.css">
-    <link rel="stylesheet" type="text/css" href="../Styles/arthur_styles.css">
+    <link rel=stylesheet href="../Styles/menu.css" type="text/css">
+    <link rel=stylesheet href="../Styles/layout.css" type="text/css">
+    <link rel=stylesheet href="../Styles/text.css" type="text/css">
+
+    <!-- Scripts -->
+    <script src="../Scripts/top.js"></script>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="../map.ico">
+
   </head>
 
   <body onload="getDate()">
 
 
     <!-- BANNER AND NAVIGATION -->
-    <a href="../index.html">
-      <div id="banner">
-        <img alt="Malgre Nous Les Incorpores de Force Alsaciens et Mosellans" src="../images/MalgreNousLogo.png" style="width: inherit" />
+    <div class="header">
+      <div class="title"> 
+        <p class="page-title"> Malgr&eacute;-Nous </p>
+        <p class="page-subtitle"> Les Incorpor&eacute;s de Force Alsaciens et Mosellans durant la Seconde Guerre Mondiale </p>
       </div>
-    </a>
-    <center>
-      <ul class="menuH decor1">
-        <li><a href="../index.html">INTRO</a> </li>
-        <li><a href="../Overview/index.html">THE WAR</a> </li>
-        <li><a href="../Memoirs/index.html">MEMOIRS</a></li>
-        <li><a href="../Conclusion/index.html">CONCLUSIONS</a></li>
-        <li><a href="../Methods/index.html" class="selected">METHODS</a></li>
-        <li><a href="../Resources/index.html">RESOURCES</a></li>
-      </ul>
-    </center>
+      <div class="nav">
+        <ul class="main">
+          <li class="main"><a class="main" href="../index.html">INTRO</a> </li>
+          <li class="main"><a class="main" href="../Overview/index.html">THE WAR</a> </li>
+          <li class="main"><a class="main" href="../Memoirs/index.html" >MEMOIRS</a> </li>
+          <li class="main"><a class="main" href="../Conclusion/index.html" >CONCLUSIONS</a> </li>
+          <li class="main"><a class="main active" href="./index.html" >METHODS</a> </li>
+          <li class="main"><a class="main" href="../Resources/index.html" >RESOURCES</a> </li>
+        </ul>
+      </div> <!-- end: nav -->
+    </div> <!-- end: header -->
     <!-- /BANNER AND NAVIGATION -->
 
-    <!-- MAIN PAGE -->
-    <div>
-
       <!-- SOURCES OF THE DATA ANALYZED -->
-      <div class="text-block">
-        <h3 class="it">Sources of the data analyzed</h3>
-        <p class="myfont">
+      <div class="block">
+        <h3>Sources of the data analyzed</h3>
+        <p>
         Our major sources of data are the databases that were set by the mission
         "Memory" of the region "Grand Est" of France <sup><a href="#ref1">1</a></sup>. 
         Those databases contain the names and biography of the Alsatian victims during
@@ -55,42 +55,42 @@
           <li> The files from the Association "Evad&eacute;s et Incorpor&eacute;s de Force" (French: fugitives and enrolled by force), who, after the Second World War, published lists of those that were missing.</li>
           <li> The lists of those that were not rapatriated in 1946
         </ul>
-        <p class="myfront">
+        <p>
         When we collected the information (November 2016), the database contained information about 23,623 Malgr&eacute; Nous. 
         </p>
-        <p class="myfront">As mentioned on the portal to the database, the information provided may be incomplete, imprecise, and some times contradictory. When possible, we have tried to correct mistakes (such as names of places misspelled or misplaced), but only when the correction was unambiguous.
+        <p>As mentioned on the portal to the database, the information provided may be incomplete, imprecise, and some times contradictory. When possible, we have tried to correct mistakes (such as names of places misspelled or misplaced), but only when the correction was unambiguous.
         </p>
       </div>
       <!-- SOURCES OF THE DATA ANALYZED -->
 
       <!-- GEOCODING THE DIFFERENT LOCATIONS --> 
-      <div class="text-block">
+      <div class="block">
         <h3 class="it">Geocoding the different locations</h3>
-        <p class="myfont">
+        <p>
         Most of the records from the Malgr&eacute; Nous described above contain information on the place of birth and place of disparition, provided as the name of a city and of the corresponding country. As mentioned above, there are some inconsistencies in those information. Some of those inconsistencies are simply a consequence of changes of border lines after the War. Some are related to spelling of names, changes in the name of the city (for example, the free city of Danzig in Germany is now Gdansk in Poland); we corrected those manually. Inconsistencies
         that could not be resoled lead to the corresponding data to be ignored.
         </p>
-        <p class="myfont">Once we had all the place information cleaned up, we proceeded by converting those names into longitude and latitude, a process referred to as geocoding. We used the Python library geocoder <sup><a href="#ref3">3</a></sup> for this task, binding the corresponding code to ArcGis. The script we used is provided <a href="./codes/locate.py">here</a>.
+        <p>Once we had all the place information cleaned up, we proceeded by converting those names into longitude and latitude, a process referred to as geocoding. We used the Python library geocoder <sup><a href="#ref3">3</a></sup> for this task, binding the corresponding code to ArcGis. The script we used is provided <a href="./codes/locate.py">here</a>.
         </p>
       </div>
       <!-- /GEOCODING THE DIFFERENT LOCATIONS --> 
 
       <!-- FROM LATITUDE AND LONGITUDE TO POSITINO ON IMAGES OF MAPS-->
-      <div class="text-block">
+      <div class="block">
         <h3 class="it">From latitude-longitude to positions on images of maps</h3>
-        <p class="myfont">
+        <p>
         The maps used to present the locations of disparition of the Malgr&eacute; Nous during the second World War are extracted from the "Atlas of the World Battle Fronts in Semimonthly phases to August 15 1945". This Atlas was produced for the
         Chief of Staff of the United States Army in 1945 <sup><a href="#ref4">4</a></sup>.
         </p>
 
-        <p class="myfont">
+        <p>
         In this Atlas, the maps used for presenting the war against Germany through November 1944 are based on azimuthal equidistant projection. In this projection,
         curving latitudes and converging longitudes appear somewhat as they do on a sphere. 
         The maps are drawn such that Berlin corresponds to the origin. 
         The last six months of the war in Europe are shown on enlarged maps with a change of scale from about 250 to 125 miles to the inch.
         </p>
 
-        <p class="myfont">
+        <p>
         Consider a location given by its latitude &phi; and longitude &lambda;. To find its corresponding position (<i>x<sub>p</sub>, y<sub>p</sub></i>) on the image representing a map
         (where <i>x<sub>p</sub></i> and <i>y<sub>p</sub></i> are pixel locations), we proceed in two steps:
         </p>
@@ -99,47 +99,50 @@
           <li>Transform the coordinates <i>(x,y)</i> into the pixel coordinates <i>(x<sub>p</sub>, y<sub>p</sub>)</i>.</li>
         </ol>
 
-        <p class="myfont">
+        <p>
         <b>Step 1: the azimuthal equidistant projection</b>
         </p>
-        <p class="myfont">
+        <p>
         Let &phi;<sub>1</sub> and &lambda;<sub>0</sub> be the latitude and longitude of the center of the projection, respectively. For the maps considered, (&phi;<sub>1</sub>,&lambda;<sub>0</sub>)=(52.52,13.4), i.e. the latitude and longitude of Berlin. Let &phi; and &lambda; be the latitude and longitude of a point on the sphere representing the Earth. The transformation equations for the
         azimuthal equidistant projection are given by <sup><a href="#ref5">5</a></sup>:
         </p>
         <div style="width: 550px; height: 60px; margin: 0 auto;">
           <img src="./images/equations1.png" style="width: inherit" />
         </div>
-        <p class="myfont">with:</p>
+        <p>with:</p>
         <div style="width: 160px; height: 70px; margin: 0 auto;">
           <img src="./images/equation2.png" style="width: inherit" />
         </div>
-        <p class="myfont"> and</p>
+        <p> and</p>
         <div style="width: 535px; height: 55px; margin: 0 auto;">
           <img src="./images/equation3.png" style="width: inherit" />
         </div>
-        <p class="myfont">
+        <p>
         where <i>c</i> is the angular distance to the center of the projection.
         </p>
-        <p class="myfont">
+        <p>
         <b>Step 2: Positioning on the maps</b>
         </p>
-        <p class="myfont">
+        <p>
         The projection described above gives coordinates <i>(x,y)</i> is arbitrary units. To locate those coordinates on the image of a map, we apply linear transformations, namely a scaling and a translation. As such,
         </p>
         <div style="width: 191px; height: 76px; margin: 0 auto;">
           <img src="./images/equation4.png" style="width: inherit" />
         </div>
-        <p class="myfont">
+        <p>
         The coefficients <i>a, b, c,</i> and <i>d</i> are computed independently for each maps considered. We select two locations (we chose Milan and Minsk).  For those two locations, we know their latitudes and longitudes and therefore the corresponding coordinates <i>(x,y)</i>. We also find manually their pixel coordinates <i>(x<sub>p</sub>,y<sub>p</sub>)</i> for a given map. The coefficients 
         <i>a, b, c,</i> and <i>d</i> are then computed to have the pixel coordinates
         fit with the planar coordinates, according to the equations above.
         </p>
+      <br>
+      <div style="text-align: center"> Continue to the next section:  <a href="../Resources/index.html"> <span style="text-decoration: underline">Resources for Research </span> </a></div>
+      <br>
       </div>
       <!-- FROM LATITUDE AND LONGITUDE TO POSITINO ON IMAGES OF MAPS-->
 
 
       <!-- NOTES -->
-      <div class="text-block">
+      <div class="block">
         <h3 class="it">Notes</h3>
         <ol>
           <li id="ref1"><a href="http://memoires.region-alsace.eu/frontoffice/accueil.aspx" target="_blank">"Victimes alsaciennes de la Second Guerre Mondiale"</a> (French: Alsatian victims of the second World War), maintained by the Region Grand Est, France.</li>
@@ -151,38 +154,13 @@
       </div>
       <!-- /NOTES -->
 
-    </div>
-    <!-- /MAIN PAGE -->
 
+      <br><br>
 
-
-    <center>
-    <hr style="display:block;border-color:black;border-width: 1px;">
-      <table style="border: none; border-collapse: collapse;height: inherited; margin: 0px 0px 0px 0px;">
-        <tr style="line-height:18px;">
-          <td style="height:18px;width:60px;"><p class="myfont">&nbsp;</p></td>
-          <td style="height:18px;width:500px;" align=left>
-            <p id="time"class="myfont">
-            </p>
-          </td>
-          <td style="height:18px;width:300px;" align=right>
-            <p class="myfont">
-            <a href="http://www.arthurkoehl.com">http://www.arthurkoehl.com</a></p>
-          </td>
-          <td style="height:18px;"><p class="myfont">&nbsp;</p></td>
-        </tr>
-      </table>
-    </center>
-    <hr style="display:block;border-color:black;border-width: 1px;">
-    </div>
-
-    <script>
-function getDate()
-{
-  var x= document.lastModified;
-  document.getElementById("time").innerHTML="Last Modified: " + x;
-  return;
-}
-    </script>
+      <div class="footer"> 
+        <button onclick="topFunction()" class="topButton" title="Go to top"> Return to top</button>
+        <p id="site"> Questions or Problems? Contact me on my website: <a style="color:white" href="http://arthurkoehl.com">arthurkoehl.com</a></p>
+        <p id="time"> Published on October 18 2017 </p>
+      </div>
   </body>
 </html>

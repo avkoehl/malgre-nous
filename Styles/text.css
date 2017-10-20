@@ -1,0 +1,46 @@
+.page-title {
+  padding-top: 25px;
+  font-size: 45px;
+  width: 480px;
+  margin: auto;
+}
+
+.page-subtitle {
+  font-size: 25px;
+  width: 480px;
+  margin: auto;
+}
+
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: blue;
+}
+
+.dropcap {
+  float: left;
+  font-size: 430%;
+  line-height: 80%;
+  width: 0.7em; 
+  color: #aa3939;
+}
+
+p {
+  font-family: Frosty;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.4;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+}

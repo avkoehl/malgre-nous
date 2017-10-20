@@ -1,89 +1,67 @@
-<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
-
+<!doctype html>
 <html>
   <head>
-    <title>Les Malgre-Nous: Overview of Casualties in the Second World War</title>
-
+    <title>Les Malgre-Nous: Conclusion Incorpores de Force Alsaciens et Mosellans</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
     <!-- Style Sheets -->
-    <link rel="stylesheet" type="text/css" href="../Styles/simple-timeline.css">
-    <link rel="stylesheet" type="text/css" href="../Styles/foundation.css"> 
+    <link rel=stylesheet href="../Styles/menu.css" type="text/css">
+    <link rel=stylesheet href="../Styles/layout.css" type="text/css">
+    <link rel=stylesheet href="../Styles/text.css" type="text/css">
 
-    <link rel=stylesheet href="../Styles/styles.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="../Styles/arthur_styles.css">
-    <link rel="stylesheet" type="text/css" href="../Styles/menuH.css">
+    <!-- Scripts -->
+    <script src="../Scripts/top.js"></script>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="../map.ico">
+
   </head>
 
-  <body onload="getDate()"> 
+  <body onload="getDate()">
+
 
     <!-- BANNER AND NAVIGATION -->
-    <a href="../index.html">
-      <div id="banner">
-        <img alt="Malgre Nous Les Incorpores de Force Alsaciens et Mosellans" src="../images/MalgreNousLogo.png" style="width: inherit" />
+    <div class="header">
+      <div class="title"> 
+        <p class="page-title"> Malgr&eacute;-Nous </p>
+        <p class="page-subtitle"> Les Incorpor&eacute;s de Force Alsaciens et Mosellans durant la Seconde Guerre Mondiale </p>
       </div>
-      <center>
-        <ul style="height: 34px" class="menuH decor1">
-          <li><a href="../index.html">INTRO</a> </li>
-          <li><a href="../Overview/index.html">THE WAR</a> </li>
-          <li><a href="../Memoirs/index.html">MEMOIRS</a></li>
-          <li><a href="../Conclusion/index.html" class="selected">CONCLUSIONS</a></li>
-          <li><a href="../Methods/index.html">METHODS</a></li>
-          <li><a href="../Resources/index.html">RESOURCES</a></li>
+      <div class="nav">
+        <ul class="main">
+          <li class="main"><a class="main" href="../index.html">INTRO</a> </li>
+          <li class="main"><a class="main" href="../Overview/index.html">THE WAR</a> </li>
+          <li class="main"><a class="main" href="../Memoirs/index.html" >MEMOIRS</a> </li>
+          <li class="main"><a class="main active" href="./index.html" >CONCLUSIONS</a> </li>
+          <li class="main"><a class="main" href="../Methods/index.html" >METHODS</a> </li>
+          <li class="main"><a class="main" href="../Resources/index.html" >RESOURCES</a> </li>
         </ul>
-      </center>
-      <!-- /BANNER AND NAVIGATION -->
-
-      <!-- MAIN PAGE -->
-      <div>
+      </div> <!-- end: nav -->
+    </div> <!-- end: header -->
+    <!-- /BANNER AND NAVIGATION -->
 
         <!-- REFLECTIONS ON THE MALGRE-NOUS -->
-        <div class="text-block">
-          <h3 class="it">The Malgr&eacute; Nous today</h3>
+        <div class="block">
+          <h3 >The Malgr&eacute; Nous today</h3>
           <p><i>Under construction...</i></p>
+      <br>
+      <div style="text-align: center"> Continue to the next section:  <a href="../Methods/index.html"> <span style="text-decoration: underline"> Methods for Project </span> </a></div>
+      <br>
+
         </div> 
         <!-- /REFLECTIONS ON THE MALGRE-NOUS -->
 
         <!-- NOTES -->
-        <div class="text-block">
-          <h3 class="it">Notes</h3>
+        <div class="block">
+          <h3 >Notes</h3>
         </div>
         <!-- /NOTES -->
 
+      <br><br>
+
+      <div class="footer"> 
+        <button onclick="topFunction()" class="topButton" title="Go to top"> Return to top</button>
+        <p id="site"> Questions or Problems? Contact me on my website: <a style="color:white" href="http://arthurkoehl.com">arthurkoehl.com</a></p>
+        <p id="time"> Published on October 18 2017 </p>
       </div>
-      <!-- /MAIN PAGE -->
-
-
-      <center>
-        <hr style="display:block;border-color:black;border-width: 1px;">
-        <div style="margin-left:70px;width: 1000px; height: 20px;">
-          <table style="border: none; border-collapse: collapse;height: inherited; margin: 0px 0px 0px 0px;">
-            <tr style="line-height:18px;">
-              <td style="height:18px;width:60px;"><p class="myfont">&nbsp;</p></td>
-              <td style="height:18px;width:500px;" align=left>
-                <p id="time" class="myfont">
-                </p>
-              </td>
-              <td style="height:18px;width:300px;" align=right>
-                <p class="myfont">
-                <a href="http://www.arthurkoehl.com">http://www.arthurkoehl.com</a></p>
-              </td>
-              <td style="height:18px;"><p class="myfont">&nbsp;</p></td>
-            </tr>
-          </table>
-        </div>
-        <hr style="display:block;border-color:black;border-width: 1px;">
-      </center>
-
-      <script>
-function getDate () {
-  var x = document.lastModified;
-  document.getElementById("time").innerHTML="Last Modified: " + x;
-  return;
-}
-      </script>
   </body>
 </html>
