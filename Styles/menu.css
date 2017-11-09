@@ -9,6 +9,12 @@ li.main {
   display: inline-block;
 }
 
+li.name {
+  font-size: 18px;
+  font-style: italic;
+  margin-left: 60px;
+}
+
 li.main a {
   font-size: 15px;
   display: block;
