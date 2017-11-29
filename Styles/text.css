@@ -30,6 +30,18 @@ a:hover {
   color: black;
 }
 
+<<<<<<< HEAD
+=======
+.dropcap {
+/*  float: left;
+  font-size: 430%;
+  line-height: 80%;
+  width: 0.7em; 
+  color: #aa3939;
+  */
+}
+
+>>>>>>> 2480f88fa8a462b7fe175e4f21ff62d3ff147baa
 ol {
   font-family: 'Source Sans Pro', Sans-Serif;
   font-size: 16px;

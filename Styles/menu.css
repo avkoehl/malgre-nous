@@ -4,6 +4,17 @@ ul.main {
   padding: 0;
   margin-top: 10px;
   margin-bottom: 10px;
+<<<<<<< HEAD
+=======
+}
+
+.site {
+  display: inline-block;
+  color: white;
+  float: left;
+  margin: 0;
+  font-size: 18px;
+>>>>>>> 2480f88fa8a462b7fe175e4f21ff62d3ff147baa
 }
 
 li.main {
@@ -12,6 +23,15 @@ li.main {
   margin: 0;
   padding-right: 25px;
   text-align: left;
+<<<<<<< HEAD
+=======
+}
+
+li.name {
+  font-size: 18px;
+  font-style: italic;
+  margin-left: 60px;
+>>>>>>> 2480f88fa8a462b7fe175e4f21ff62d3ff147baa
 }
 
 li.main a {
