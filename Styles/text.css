@@ -27,16 +27,7 @@ a {
 }
 
 a:hover {
-  color: blue;
-}
-
-.dropcap {
-/*  float: left;
-  font-size: 430%;
-  line-height: 80%;
-  width: 0.7em; 
-  color: #aa3939;
-  */
+  color: black;
 }
 
 ol {
