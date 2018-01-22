@@ -15,6 +15,7 @@
 
     <!-- Scripts -->
     <script src="../Scripts/top.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="../map.ico">
@@ -96,7 +97,8 @@
           <br>
           <center>
           <div style="margin-left: 0px; margin-right: 20px;  width: 820px">
-            <img alt="histgram of comparative casualties German Army and Malgre Nous" src="../Overview/images/casualties.png" style="width: 100%" /> 
+            <div style="width: 900px; height: 400px;" id="casualties"></div>
+            <script jsonfile="./casualties.json" src="./casualties.js"></script>
             <div style="width: 100%">
                 <p style="font-size: 14px">
                 <b>Figure 1:</b> Casualties among the Malgr&eacute; Nous (in blue) and among the
@@ -115,7 +117,8 @@
           </p>
 
           <center>
-              <img src="../Overview/images/regions.png" style="width: 700px" /> 
+              <div style="width: 800px; height: 480px" id="regions" /> 
+              <script jsonfile="./regions.json" src="./regions.js"></script>
               <div style="width: 700px">
                 <p style="font-size:14px"><b>Figure 2:</b> Casualties among the Malgr&eacute Nous and the German armies over the different fronts of the war. Both Western and Eastern front refer to the period up to December 31 1944, while Germany (1945) refers to the final stages of the war, following the invasion fo Germany from both Western and Eastern front.</p>
               </div>
