@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -21,7 +21,7 @@ body {
 }
 
 .block {
-  /*background-color: white;*/
+  background-color: white;
   width: 860px;
   margin: 0 auto;
   /*
