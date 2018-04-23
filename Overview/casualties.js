@@ -151,7 +151,7 @@ d3.json(jsonfile, function(error, jdata) {
 		.attr("height", height)
 		.attr("width", width)
 		.style("stroke", "black")
-		.style("fill", "#FFFFF0")
+		.style("fill", "#ffffff")
 		.style("stroke-width", 0.5);
 
 //
