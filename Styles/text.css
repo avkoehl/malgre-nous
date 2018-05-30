@@ -5,14 +5,14 @@
   font-size: 35px;
   width: 800px;
   margin: auto;
-  font-family: serif;
+  font-family: 'Source Sans Pro', Sans-Serif;
 }
 
 .page-subtitle {
   font-size: 23px;
   width: 640px;
   margin: auto;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 sup {
